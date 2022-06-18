@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variaveis.css",
+	"sources": [
+		"../sass/variaveis.scss"
+	],
+	"sourcesContent": [
+		"$rosa: #cf6357;\r\n$verde: #2b6348;\r\n$salmao: #f2ad8e;\r\n$bege: #fcf4e9;\r\n$marrom: #733e2c;\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}
