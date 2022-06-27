@@ -1,0 +1,94 @@
+/*
+style do menu - grupo 2
+*/
+
+section#img-menu {
+    background-color: #fcf4e9;
+}
+
+section#img-menu h1 {
+    color: rgb(34, 34, 34);
+    margin-bottom: 80px;
+}
+
+div.menu {
+    width: 50%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*cards*/
+    div.menu div.card-box {
+    margin: 10px auto;
+    width: 80%;
+    height: 90%;
+    font-size: 20px;
+    background-color: black;
+    transition: all .3s ease-in-out;
+}
+
+div.menu div.card-box:nth-child(1){
+    background-image: url(../img/nene-mae.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50% 0px 0px 0px;
+    margin-left: 50px;
+}
+div.menu div.card-box:nth-child(2){
+    background-image: url(../img/gestante.jpg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-right: 50px;
+    border-radius: 0px 50% 0px 0px;
+}
+div.menu div.card-box:nth-child(3){
+    background-image: url(../img/barriga.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 0px 0px 0px 50%;
+    margin-left: 50px;
+}
+div.menu div.card-box:nth-child(4){
+    background-image: url(../img/nene.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-right: 50px;
+    border-radius: 0px 0px 50% 0px;
+}
+
+div.menu div.card-box a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+div.menu div.card-box:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 3px 3px 3px rgba(0, 0, 0, 0.774);
+    font-size: 21px;
+    opacity: 0.6;
+}
+
+div.menu div.card-box a:hover {
+    text-decoration: underline;
+    color: rgb(34, 34, 34);
+}
+
+button#mais-servicos {
+    border: 1px solid rgb(168, 0, 168);
+    background-color: #fff;
+    width: 10%;
+    height: 3em;
+}
+
+button#mais-servicos:hover {
+    background-color: rgb(233, 232, 232);
+    width: 11%;
+    border: none;
+    border-bottom: 1px solid rgb(168, 0, 168);
+}

@@ -1,0 +1,31 @@
+@media (max-width: 1050px) {
+  section.home {
+    height: 70vh;
+  }
+  div.home-info h1 {
+    font-size: 15em;
+  }
+  .apmir-card {
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 0 1em;
+    top: -7%;
+  }
+  div.equipe {
+    width: 80%;
+    height: 14em;
+  }
+}
+
+@media (max-width: 900px) {
+  section.home {
+    height: 70vh;
+  }
+  div.equipe {
+    width: 100%;
+    height: 13em;
+  }
+  section.welcome {
+    padding: 7em 2em;
+  }
+}
